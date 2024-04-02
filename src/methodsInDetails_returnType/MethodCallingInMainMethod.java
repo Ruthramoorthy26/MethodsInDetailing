@@ -18,9 +18,7 @@ public class MethodCallingInMainMethod {
 	
 	public static String methodOne(int id, String name) {
 		
-		return "id is "+id+"\nname is "+name;/*here we return only String but we add integer type..but we add integer with String..
-		so '+' is act as concatenation. because String nature is any type with add it.string act as concatenation so..we get string 
-		with other data types when we return type is string..but we return type is not string, now we can get multiple data types as return type.*/ 
+		return "id is "+id+"\nname is "+name;
 	}
 }
 
