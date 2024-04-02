@@ -9,7 +9,7 @@ public class MethodsId {
 		System.out.println("3 - Multiplication");
 		System.out.println("4 - Division") ;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Select an option to perform from given above options: ");        //here, even if we don't give println..that run time input will work..because we used scanner line(11) and runtime input line(13).
+		System.out.println("Select an option to perform from given above options: ");        
 		int Option = sc.nextInt();
 		System.out.println("pls enter 1'st input");
 		int a = sc.nextInt(); 
@@ -41,7 +41,7 @@ public class MethodsId {
 	int result = a + b;                             
 	return result;
 	}
-	int subtraction(int x, int y) {//here a and b is run time inputs, so a and b changed as runtime numbers.. so we can here declare name x and y to runtime a and b values.
+	int subtraction(int x, int y) {
 		return x - y;         
 	}
 	int multiplication(int a, int b) {
